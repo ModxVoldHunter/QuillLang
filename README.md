@@ -6,10 +6,6 @@ Quill, the scripting language (Made using AI)
 Made using GLM-5.2, to compile you need .NET 8 SDK
 
 ```
-dotnet build Quill.csproj
-```
-
-```
 Quill/
 ├── Quill.csproj
 ├── Program.cs
@@ -82,3 +78,12 @@ func double(n) { return n * 2; }
 print("Doubled 21 = " + string(apply(double, 21)));
 
 ```
+
+# Building
+
+
+WIP
+```
+dotnet build Quill.csproj
+```
+
