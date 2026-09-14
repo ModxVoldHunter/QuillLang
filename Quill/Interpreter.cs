@@ -122,7 +122,7 @@ namespace Quill
             {
                 if (e.Line > 0) Console.Error.WriteLine($"Runtime error (line {e.Line}): {e.Message}");
                 else Console.Error.WriteLine($"Runtime error: {e.Message}");
-                Environment.Exit(1);
+                System.Environment.Exit(1);
             }
         }
 
